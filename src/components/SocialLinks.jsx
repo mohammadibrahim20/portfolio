@@ -1,4 +1,4 @@
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFiletypePdf } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 const SocialLinks = () => {
@@ -10,6 +10,7 @@ const SocialLinks = () => {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
+      style: "rounded-tr-md",
       href: "https://github.com/mohammadibrahim20",
     },
     {
@@ -25,17 +26,17 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Resume <HiOutlineMail size={30} />
+          mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:mohammadibrahim2224@gmail.com",
-      style: "rounded-tr-md",
+      href: "mailto:example@example.com",
+      // style: "rounded-tr-md",
     },
     {
       id: 4,
       child: (
         <>
-          Linkedin <BsFillPersonLinesFill size={30} />
+          Resume <BsFiletypePdf size={30} />
         </>
       ),
       href: "/resume.pdf",

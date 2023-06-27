@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Project 3",
+    "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
+    "serverside_link": "https://example.com/serverside3",
+    "clientside_link": "https://example.com/clientside3",
+    "live_link": "https://example.com/live3",
+    "description": "This is the description of Project 3.",
+    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+  },
+  {
+    "id": 2,
+    "title": "Project 3",
+    "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
+    "serverside_link": "https://example.com/serverside3",
+    "clientside_link": "https://example.com/clientside3",
+    "live_link": "https://example.com/live3",
+    "description": "This is the description of Project 3.",
+    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
+    "serverside_link": "https://example.com/serverside3",
+    "clientside_link": "https://example.com/clientside3",
+    "live_link": "https://example.com/live3",
+    "description": "This is the description of Project 3.",
+    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+  }
+]
