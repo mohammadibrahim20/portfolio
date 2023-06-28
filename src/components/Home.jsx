@@ -1,10 +1,12 @@
+import { FiDownload } from "react-icons/fi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import HeroImage from "../assets/heroImage.png";
 const Home = () => {
   return (
     <div
-      name="home"
+      id="home"
+      // name="home"
       className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
@@ -16,7 +18,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam id
             iste quae culpa vitae, quo saepe quia molestiae maiores facere!
           </p>
-          <div>
+          <div className="flex gap-5">
             <Link
               to="portfolio"
               smooth
@@ -28,6 +30,17 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+
+            <a
+              href="/resume.pdf"
+              download={true}
+              className="group hover:scale-105 duration-200 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
+            >
+              Resume
+              <span className=" duration-300">
+                <FiDownload size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
         <div>

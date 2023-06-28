@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [active, setActive] = useState(false);
   const links = [
     {
       id: 1,
@@ -26,18 +27,32 @@ const Navbar = () => {
       link: "contact",
     },
   ];
+
   return (
     <div className="flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Ibrahim</h1>
+        <h1 className="text-5xl font-signature ml-2">
+          <span className="hidden md:inline">Moahammad</span> Ibrahim
+        </h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ link, id }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className={`px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200 ${
+              active ? "text-white" : "text-gray-500"
+            }`}
           >
-            <Link to={link} smooth duration={500}>{link}</Link>
+            <Link
+              to={link}
+              spy={true}
+              offset={-70}
+              activeClass="active"
+              smooth
+              duration={500}
+            >
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
@@ -54,7 +69,14 @@ const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
