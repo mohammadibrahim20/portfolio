@@ -1,32 +1,39 @@
 [
   {
     "id": 1,
-    "title": "Project 3",
-    "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
-    "serverside_link": "https://example.com/serverside3",
-    "clientside_link": "https://example.com/clientside3",
-    "live_link": "https://example.com/live3",
-    "description": "This is the description of Project 3.",
-    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+    "title": "Language Academy",
+    "technologies": [
+      "React",
+      "MongoDB",
+      "ExpressJS",
+      "Node JS",
+      "Stripe",
+      "JWT"
+    ],
+    "serverside_link": "https://github.com/mohammadibrahim20/language-academy-server",
+    "clientside_link": "https://github.com/mohammadibrahim20/language-academy-client",
+    "live_link": "https://assignment-final-89b91.web.app/",
+    "description": "Language Academy is an innovative language learning platform that I Developed, incorporating Stripe Payment and Axios Interceptor to enhance security and streamline API requests",
+    "image": "https://i.ibb.co/khY7pyx/language-academy.png"
   },
   {
     "id": 2,
-    "title": "Project 3",
+    "title": "The Toy Shop",
     "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
-    "serverside_link": "https://example.com/serverside3",
-    "clientside_link": "https://example.com/clientside3",
-    "live_link": "https://example.com/live3",
-    "description": "This is the description of Project 3.",
-    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+    "serverside_link": "https://github.com/mohammadibrahim20/the-toys-shop-server",
+    "clientside_link": "https://github.com/mohammadibrahim20/the-toy-shop/",
+    "live_link": "https://assignment-11-9eecc.web.app/",
+    "description": "The Toys Shop is a web application that I developed using MongoDB, Express.js, React.js, and Node.js (MERN stack). This project focused on implementing CRUD (Create, Read, Update, Delete) operations for managing toy products within an online store",
+    "image": "https://i.ibb.co/938PHx2/toy-shop.png"
   },
   {
     "id": 3,
-    "title": "Project 3",
+    "title": "Food Buzz",
     "technologies": ["JavaScript", "React", "MongoDB", "Tailwind CSS"],
-    "serverside_link": "https://example.com/serverside3",
-    "clientside_link": "https://example.com/clientside3",
-    "live_link": "https://example.com/live3",
-    "description": "This is the description of Project 3.",
-    "image": "https://i.ibb.co/F65mc8S/image-processing20211122-27635-1qd60t0.png"
+    "serverside_link": "https://github.com/mohammadibrahim20/foodbuzz-server",
+    "clientside_link": "https://github.com/mohammadibrahim20/food-buzz-server-assignment-10",
+    "live_link": "https://food-buzz-assignment.web.app/chef",
+    "description": "Developed a Food Buzz chef-based website using Tailwind CSS for responsive and modern UI design. Implemented the server-side logic using Express.js and Node.js, and integrated MongoDB as the database for storing recipe data. Leveraged Firebase Authentication to provide secure user registration and login functionality.",
+    "image": "https://i.ibb.co/hZ7Nxnr/foodbuzz.png"
   }
 ]

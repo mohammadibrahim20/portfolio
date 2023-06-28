@@ -7,5 +7,5 @@ export default {
       signature: ["Great Vibes"],
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

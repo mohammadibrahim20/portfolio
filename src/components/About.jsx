@@ -1,28 +1,26 @@
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-10">
-      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-10 "
+    >
+      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full px-5 sm:px-0">
+        <div className="pb-5">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
         </div>
-        <p className="text-xl mt-20 text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga modi
-          voluptatum, incidunt explicabo debitis ab ad est deserunt aliquam quae
-          quisquam dignissimos ratione eos aspernatur velit ipsa adipisci quo
-          corrupti vitae maiores doloremque. Exercitationem eum commodi deserunt
-          tempora corporis atque, iste excepturi dolores reiciendis facilis,
-          saepe facere. Voluptatem, nihil delectus.
+        <p className="text-base md:text-xl mt-10 text-justify">
+          As an ambitious Frontend Developer, my goal is to contribute my skills and enthusiasm to a dynamic and forwardthinking organization. With a passion for front-end development and a strong foundation in React, I aim to leverage my technical expertise and creativity to create immersive and user-friendly web applications. I am determined to make a significant impact in the field of web development and advance my career as a Frontend Developer
         </p>
 
         <br />
-        <p className="text-xl text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-          recusandae, maiores voluptas fuga quos deleniti qui molestiae?
-          Excepturi et voluptate atque, explicabo exercitationem autem doloribus
-          iusto ea odio suscipit reprehenderit aut. Libero eveniet ex maxime
-          fugit corrupti quisquam obcaecati illum necessitatibus magnam quae,
-          molestiae aspernatur. Quaerat ipsam dicta veritatis soluta?
-        </p>
+        <div className="md:flex justify-between">
+          <p>Phone: +8801874824104</p>
+          <p>Email: mohammadibrahim2224@gmail.com</p>
+          <p>Githube: github.com/moham</p>
+          <p>Linkedin: linkden.com</p>
+        </div>
       </div>
     </div>
   );
